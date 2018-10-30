@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Elianto";
+    src: url('Elianto-Regular.ttf'),
+    url('Elianto-Regular.otf');
+}
 body{
   text-align: center;
   background-color: #e8f1f2;
@@ -12,7 +17,7 @@ body{
 }
 
 .block{
-  font-family: cursive;
+  font-family: Elianto;
   font-size: 5em;
   padding: 0px;
   margin: 5px 0px;
@@ -50,6 +55,7 @@ body{
   color: black;
   text-align: center;
   font-size: 45pt;
+  font-family: Lobster;
 }
 
 .mainp p{
